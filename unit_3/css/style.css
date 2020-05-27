@@ -1,6 +1,11 @@
 body {
 	text-align: center;
-	background: #82ECF0;
-	color: #011AF0;
-	font-family: "GT America";
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Helvetica, Verdana, serif;
+}
+
+h1 {
+  font-family: Calibri, Verdana, serif;
+  text-transform: uppercase;
 }
