@@ -5,7 +5,10 @@ body {
 	font-family: Helvetica, Verdana, serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Ultra&display=swap');
+
 h1 {
+  font-family: 'Ultra', serif;
   font-family: Calibri, Verdana, serif;
   text-transform: uppercase;
 }
