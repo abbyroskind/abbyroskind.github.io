@@ -1,7 +1,4 @@
-@font-face {
-	font-family: Ultra;
-	src: url("/fonts/Ultra-Regular.woff") format ("woff");
-}
+@import url("fonts/Ultra-Regular.woff");
 
 body {
 	text-align: center;
