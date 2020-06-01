@@ -1,7 +1,7 @@
 @font-face {
 	font-family: Ultra;
-	src: url("/fonts/Ultra/Ultra-Regular.woff") format ("woff"),
-		 url("/fonts/Ultra/Ultra-Regular.tff") format ("ttf"); 
+	src: url("/fonts/Ultra-Regular.woff") format ("woff"),
+		 url("/fonts/Ultra-Regular.tff") format ("ttf"); 
 
 body {
 	text-align: center;
