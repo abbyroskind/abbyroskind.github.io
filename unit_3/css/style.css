@@ -3,13 +3,30 @@ body {
 	background: #FFFFFF;
 	color: #000000;
 	font-family: Helvetica, Verdana, serif;
-}
-
-div {
-	align-content: center;
-}
+} 
 
 h1 {
   font-family: 'Sarina', cursive;
+}
+
+nav {
+	width: 85vw;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 2vw;
+	font-size: 3vh;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding: 2vw;
+}
+
+a:hover{
+	color: magenta;
 }
 
