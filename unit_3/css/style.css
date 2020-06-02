@@ -5,6 +5,10 @@ body {
 	font-family: Helvetica, Verdana, serif;
 }
 
+div {
+	padding: 2em;
+}
+
 h1 {
   font-family: 'Sarina', cursive;
 }
