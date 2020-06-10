@@ -1,0 +1,69 @@
+body {
+	text-align: center;
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Helvetica, Verdana, serif;
+} 
+
+h1 {
+  font-family: 'Sarina', cursive;
+}
+
+nav {
+	width: 100vw;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 5vw;
+	font-size: 5vh;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding: 2vw;
+}
+
+a:hover{
+	color: lavender;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 2em;
+  vertical-align: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 2em 2em;
+  vertical-align: center;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
