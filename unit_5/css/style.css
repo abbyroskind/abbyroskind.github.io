@@ -34,6 +34,10 @@ a:hover{
 	color: magenta;
 }
 
+#feature{
+  padding-bottom: 2em;
+}
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
