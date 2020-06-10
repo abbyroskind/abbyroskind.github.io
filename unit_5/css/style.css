@@ -40,6 +40,7 @@ a:hover{
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  width: 1200px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -48,6 +49,7 @@ a:hover{
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+  width: 1200px;
 }
 
 .column img {
@@ -72,5 +74,9 @@ a:hover{
     flex: 100%;
     max-width: 100%;
   }
+}
+
+footer {
+  padding: 50px;
 }
 
