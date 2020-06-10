@@ -39,7 +39,6 @@ a:hover{
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 5px;
   width: 1200px;
   margin: auto;
 }
@@ -49,15 +48,16 @@ a:hover{
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 5px;
   width: 1200px;
   margin: auto;
 }
 
 .column img {
   margin-top: 8px;
+  padding: 2em;
   vertical-align: middle;
   width: 100%;
+
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
