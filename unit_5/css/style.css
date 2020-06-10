@@ -39,6 +39,7 @@ a:hover{
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
+  align-content: center;
   padding: 0 4px;
   width: 1200px;
 }
@@ -48,6 +49,7 @@ a:hover{
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
+  align-content: center;
   padding: 0 4px;
   width: 1200px;
 }
