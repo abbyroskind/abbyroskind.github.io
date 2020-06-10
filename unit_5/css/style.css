@@ -6,7 +6,7 @@ body {
 	text-align: center;
 	background: #FFFFFF;
 	color: #000000;
-	font-family: Helvetica, Verdana, serif;
+	font-family: Helvetica, Verdana, sans-serif;
 } 
 
 h1 {
@@ -39,9 +39,9 @@ a:hover{
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  align-content: center;
   padding: 0 4px;
   width: 1200px;
+  margin: auto;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -49,9 +49,9 @@ a:hover{
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  align-content: center;
   padding: 0 4px;
   width: 1200px;
+  margin: auto;
 }
 
 .column img {
@@ -79,6 +79,7 @@ a:hover{
 }
 
 footer {
-  padding: 50px;
+  font-family: Helvetica, Verdana, sans-serif;
+  padding: 100px;
 }
 
