@@ -10,8 +10,16 @@ body {
 } 
 
 h1 {
-  font-family: 'Lemon', cursive;
+  font-family: 'blow-up', cursive;
+  font-weight: 300;
+  font-style: normal;
   font-size: 3em;
+}
+
+h3 {
+  text-align: center;
+  color: #000000;
+  font-family: Helvetica, Verdana, sans-serf;
 }
 
 nav {
