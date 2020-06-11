@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body h2 {
+body {
 	text-align: center;
 	background: #FFFFFF;
 	color: #000000;
@@ -16,6 +16,12 @@ h1 {
   font-style: normal;
   font-size: 5em;
   font-width: 1200px;
+}
+
+h2 {
+  background: #FFFFFF;
+  color: #000000;
+  font-family: Helvetica, Verdana, sans-serif;
 }
 
 nav {
