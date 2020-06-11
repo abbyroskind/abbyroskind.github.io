@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 body {
 	text-align: center;
 	background: #FFFFFF;
@@ -16,6 +22,9 @@ h1 {
   font-style: normal;
   font-size: 5em;
   font-width: 1200px;
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 h2 {
@@ -26,6 +35,22 @@ h2 {
 
 nav {
 	width: 100vw;
+    background-color: ##E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 li {
@@ -72,8 +97,6 @@ a:hover{
   padding: 2.5em;
   vertical-align: middle;
   width: 100%;
-  box-shadow: 1px 1px 5px magenta;
-
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -97,5 +120,8 @@ a:hover{
 footer {
   font-family: Helvetica, Verdana, sans-serif;
   padding: 150px;
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
 
