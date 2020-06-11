@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body .relatedarticles {
+body h2 {
 	text-align: center;
 	background: #FFFFFF;
 	color: #000000;
@@ -16,13 +16,6 @@ h1 {
   font-style: normal;
   font-size: 5em;
   font-width: 1200px;
-}
-
-h2 {
-  text-align: center;
-  background: #FFFFFF;
-  color: #000000;
-  font-family: Helvetica, Verdana, sans-serf;
 }
 
 nav {
