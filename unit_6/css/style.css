@@ -48,14 +48,20 @@ h2 {
   margin: auto;
 }
 
-aside {
-    background-color: #FFC675;
+#two_column {
+  background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
 
-article {
-    background-color: #E89C6C;
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#right {
+    background-color: #E55B88;
     border: 1px black solid;
     padding: 20px;
 }
