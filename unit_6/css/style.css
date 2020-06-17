@@ -71,12 +71,13 @@ h2 {
   max-height: auto;
 }
 
-.clearfix:after {
+.clearfix::after {
   visibility: hidden;
   font-size: 0;
-  content: " ";
+  content: "";
   clear: both;
   height: 0;
+  overflow: auto;
 }
 
 li {
