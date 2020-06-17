@@ -38,6 +38,23 @@ nav {
 
 }
 
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 5vw;
+  font-size: 4vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 2vw;
+}
+
+a:hover{
+  color: magenta;
+}
+
 h2 {
   font-family: Arial, sans-serif;
   font-weight: 400;
@@ -74,23 +91,6 @@ h2 {
   clear: both;
   height: 0;
   overflow: auto;
-}
-
-li {
-	list-style-type: none;
-	display: inline;
-	margin: 0 5vw;
-  font-size: 4vh;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-	padding: 2vw;
-}
-
-a:hover{
-	color: magenta;
 }
 
 img:hover {
