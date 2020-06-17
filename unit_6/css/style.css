@@ -84,10 +84,6 @@ h2 {
     object-fit: contain;
 }
 
-#right:img {
-
-}
-
 .clearfix:after {
   visibility: hidden;
   display: block;
