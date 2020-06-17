@@ -83,8 +83,9 @@ h2 {
     width: 62%;
 }
 
-#feature {
+.contain {
   object-fit: contain;
+  width: 62%;
 }
 
 .clearfix:after {
