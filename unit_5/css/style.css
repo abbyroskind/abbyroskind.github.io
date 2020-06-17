@@ -69,6 +69,10 @@ a:hover{
 	color: magenta;
 }
 
+img:hover {
+  border: 10px solid magenta;
+}
+
 #feature {
   margin: auto;
 }

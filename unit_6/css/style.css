@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+body {
+	text-align: center;
+	background: #FFFFFF;
+	color: #000000;
+	font-family: Helvetica, Verdana, sans-serif;
+} 
+
+h1 {
+  font-family: 'rig-solid-medium-outline', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 5em;
+  font-width: 1200px;
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+  width: 100vw;
+  font-family: lust-script-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: ##E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+h2 {
+  font-family: lust-script-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#feature {
+  margin: auto;
+}
+
+aside {
+    background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 5vw;
+  font-size: 4vh;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding: 2vw;
+}
+
+a:hover{
+	color: magenta;
+}
+
+img:hover {
+  border: 10px solid magenta;
+}
+
+#feature {
+  margin: auto;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  width: 1200px;
+  margin: auto;
+}
+
+.column img {
+  padding-top: 1em;
+  padding: 2.5em;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+footer {
+  font-family: Helvetica, Verdana, sans-serif;
+  padding: 150px;
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
