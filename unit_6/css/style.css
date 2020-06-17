@@ -73,9 +73,13 @@ h2 {
     background-color: #E55B88;
     border: 1px black solid;
     padding: 20px;
-    margin: auto;
     float: right;
     width: 62%;
+}
+
+.feature {
+  max-width: 70%;
+  max-height: auto;
 }
 
 li {
@@ -97,10 +101,6 @@ a:hover{
 
 img:hover {
   border: 10px solid magenta;
-}
-
-#feature {
-  margin: auto;
 }
 
 .row {
