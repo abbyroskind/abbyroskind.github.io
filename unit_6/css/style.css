@@ -47,6 +47,14 @@ h2 {
   margin: auto;
 }
 
+.clearfix:after {
+  visibility: hidden;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
 #two_column {
   background-color: #FFB7CF;
     border: 1px black solid;
