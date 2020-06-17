@@ -12,7 +12,6 @@ body {
 	text-align: center;
 	background: #FFFFFF;
 	color: #000000;
-	font-family: Helvetica, Verdana, sans-serif;
 } 
 
 h1 {
@@ -64,6 +63,7 @@ h2 {
     background-color: #E55B88;
     border: 1px black solid;
     padding: 20px;
+    margin: auto;
 }
 
 li {
