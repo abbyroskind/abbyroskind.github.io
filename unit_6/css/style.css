@@ -81,7 +81,11 @@ h2 {
     padding: 20px;
     float: right;
     width: 62%;
-    overflow: auto;
+    object-fit: contain;
+}
+
+#right:img {
+
 }
 
 .clearfix:after {
