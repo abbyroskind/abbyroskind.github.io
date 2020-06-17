@@ -81,6 +81,7 @@ h2 {
     padding: 20px;
     float: right;
     width: 62%;
+    overflow: auto;
 }
 
 .clearfix:after {
@@ -90,7 +91,6 @@ h2 {
   content: " ";
   clear: both;
   height: 0;
-  overflow: auto;
 }
 
 img:hover {
