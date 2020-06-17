@@ -20,7 +20,8 @@ h1 {
   font-weight: 500;
   font-style: normal;
   font-size: 5em;
-  font-width: 1200px;
+  font-width: 80%;
+  width: 100vw;
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
