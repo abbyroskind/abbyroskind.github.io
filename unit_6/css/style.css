@@ -81,7 +81,11 @@ h2 {
     padding: 20px;
     float: right;
     width: 62%;
-    object-fit: contain;
+}
+
+#contain {
+  object-fit: fill;
+  width: 100%;
 }
 
 .clearfix:after {
