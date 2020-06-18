@@ -15,20 +15,20 @@ body {
 } 
 
 h1 {
+  width: 100%;
   font-family: 'rig-solid-medium-outline', sans-serif;
   letter-spacing: 2px;
   font-weight: 500;
   font-style: normal;
   font-size: 5em;
   font-width: 80%;
-  width: 100vw;
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
 }
 
 nav {
-  width: 100vw;
+  width: 100%;
   font-family: whomp, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -48,7 +48,6 @@ li {
 a {
   text-decoration: none;
   color: black;
-  padding: 2vw;
 }
 
 a:hover{
@@ -77,7 +76,6 @@ h2 {
 #right {
     background-color: #E55B88;
     border: 1px black solid;
-    padding: 20px;
     float: right;
     width: 62%;
       position: relative;
@@ -88,6 +86,7 @@ h2 {
 #right #transparent {
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  left: 0;
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #000000; /* Black text */
@@ -118,7 +117,7 @@ img:hover {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  width: 1200px;
+  width: 100%;
   margin: auto;
 }
 
@@ -127,7 +126,6 @@ img:hover {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
   max-width: 25%;
-  width: 1200px;
   margin: auto;
 }
 
