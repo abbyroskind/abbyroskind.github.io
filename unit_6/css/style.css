@@ -41,8 +41,8 @@ nav {
 li {
   list-style-type: none;
   display: inline;
-  margin: 28%;
-  font-size: 40%;
+  margin: auto;
+  font-size: 20vw;
 }
 
 a {
