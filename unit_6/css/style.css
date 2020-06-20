@@ -3,15 +3,12 @@
 }
 
 .wrapper {
-    background-color: #FFE2B8;
-    border: 1px black solid;
     padding: 20px;
 }
 
 body {
 	text-align: center;
-	background: #FFFFFF;
-	color: #000000;
+  color: #000000;
 } 
 
 h1 {
@@ -55,12 +52,9 @@ h2 {
 }
 
 #two_column {
-  background-color: #FFB7CF;
 }
 
 #left {
-    background-color: #E582A2;
-    border: 1px black solid;
     padding: 20px;
     float: left;
     width: 30%;
@@ -68,8 +62,6 @@ h2 {
 }
 
 #right {
-    background-color: #E55B88;
-    border: 1px black solid;
     float: right;
     width: 62%;
       position: relative;
