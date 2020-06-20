@@ -28,7 +28,7 @@ nav {
   font-style: normal;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
 }
 
 li {
@@ -36,7 +36,7 @@ li {
   width: 100%;
   display: inline;
   font-size: 2vw;
-  margin: 20px;
+  margin: 50px;
 }
 
 a {
