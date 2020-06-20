@@ -28,6 +28,7 @@ nav {
   font-style: normal;
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 li {
