@@ -31,14 +31,14 @@ nav {
   font-family: blambot-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  display: inline;
+  display: flex;
   justify-content: center;
 }
 
 li {
   list-style-type: none;
+  display: inline-block;
   width: 100%;
-  display: inline;
   justify-content: center;
   font-size: 2vw;
   padding: 0 40px;
