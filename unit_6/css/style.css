@@ -31,7 +31,7 @@ nav {
   font-family: blambot-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
 }
 
@@ -39,7 +39,10 @@ li {
   list-style-type: none;
   width: 100%;
   display: inline;
-  justify-content: space-around;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
   font-size: 2vw;
   padding: 0 40px;
 }
