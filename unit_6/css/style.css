@@ -37,7 +37,7 @@ nav {
 
 li {
   list-style-type: none;
-  display: inline-block;
+  display: inline;
   width: 100%;
   justify-content: center;
   font-size: 2vw;
