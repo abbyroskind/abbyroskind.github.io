@@ -52,6 +52,7 @@ a:hover{
 
 h2 {
   font-family: 'Philosopher', sans-serif;
+  text-align: center;
 }
 
 #two_column {
@@ -61,7 +62,6 @@ h2 {
     padding: 20px;
     float: left;
     width: 30%;
-    text-align: center;
 }
 
 #right {
