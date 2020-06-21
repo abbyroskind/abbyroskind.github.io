@@ -35,6 +35,10 @@ nav {
   justify-content: space-around;
 }
 
+@media screen and (min-width: 500px) {
+  flex-direction: column;
+}
+
 li {
   list-style-type: none;
   width: 100%;
