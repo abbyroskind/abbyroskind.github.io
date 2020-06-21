@@ -31,7 +31,7 @@ nav {
 li {
   list-style-type: none;
   width: 100%;
-  display: inline;
+  display: inline-block;
   font-size: 2vw;
   padding: 50px;
 }
