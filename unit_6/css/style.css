@@ -51,6 +51,8 @@ li {
   .nav {
     flex-direction: column;
     display: inline-block;
+    float: none;
+    width: 100%;
   }
 }
 
