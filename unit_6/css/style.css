@@ -7,6 +7,10 @@ body {
   color: #000000;
 } 
 
+.wrapper {
+  margin: 0;
+}
+
 .header img {
   padding: 20px;
 }
@@ -29,7 +33,6 @@ nav {
   font-style: normal;
   display: inline;
   justify-content: center;
-  padding: 70px;
 }
 
 li {
