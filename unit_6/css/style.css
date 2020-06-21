@@ -35,12 +35,6 @@ nav {
   justify-content: space-around;
 }
 
-@media screen and (max-width: 500px) {
-  .nav {
-    flex-direction: column;
-  }
-}
-
 li {
   list-style-type: none;
   width: 100%;
@@ -51,6 +45,12 @@ li {
   flex-basis: auto;
   font-size: 2vw;
   padding: 0 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+  }
 }
 
 a {
