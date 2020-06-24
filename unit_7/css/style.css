@@ -48,7 +48,7 @@ li {
   justify-content: center;
 }
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 730px) { 
     [class*="nav-flex-container"] {
     width: 100%;
   }
