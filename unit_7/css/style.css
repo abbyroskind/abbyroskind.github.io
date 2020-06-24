@@ -50,7 +50,7 @@ li {
 
 @media only screen and (max-width: 500px) { 
     [class*="nav-flex-container"] {
-    width: 50%;
+    width: 100%;
   }
 }
 
