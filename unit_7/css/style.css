@@ -48,12 +48,10 @@ li {
   justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
-  .nav-flex-container {
-    flex-direction: column;
-    display: inline-block;
-    float: none;
-    width: 100%;
+@media only screen and (max-width: 500px) { 
+    [class*="nav-flex-container"] {
+    width: 50%;
+    
   }
 }
 
