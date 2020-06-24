@@ -19,7 +19,7 @@ h1 {
   justify-content: center;
 }
 
-nav {
+nav a {
   background-color: tan;
   width: 100%;
   font-family: blambot-pro, sans-serif;
