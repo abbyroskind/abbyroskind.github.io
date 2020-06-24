@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+  color: #000000;
+} 
+
+.wrapper {
+  margin: auto;
+}
+
+.header img {
+  padding: 20px;
+}
+
+h1 {
+  width: 100%;
+  font-family: 'rig-solid-medium-outline', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 7vw;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  font-family: blambot-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  width: 100%;
+  display: inline;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-size: 2vw;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+    display: inline-block;
+    float: none;
+    width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: magenta;
+}
+
+h2 {
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
+}
+
+#two_column {
+}
+
+#left {
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    float: right;
+    width: 62%;
+      position: relative;
+      max-width: 100%;
+      margin: 0 auto;
+}
+
+#right #transparent {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  left: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #000000; /* Black text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+#contain {
+  object-fit: fill;
+  width: 100%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+img:hover {
+  border: 10px solid magenta;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  margin: auto;
+}
+
+.column img {
+  padding-top: 1em;
+  padding: 2.5em;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+footer {
+  font-family: Helvetica, Verdana, sans-serif;
+  padding: 150px;
+}
+
