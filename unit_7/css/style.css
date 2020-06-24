@@ -33,9 +33,12 @@ nav {
 li {
   list-style-type: none;
   width: 100%;
-  font-size: 2vw;
   display: inline-flex;
   justify-content: space-around;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-size: 2vw;
   padding: 0 50px;
 }
 
