@@ -34,6 +34,7 @@ li {
   font-size: 2vw;
   display: inline-flex;
   justify-content: space-around;
+  padding: 0 50px;
 }
 
 @media screen and (max-width: 500px) {
