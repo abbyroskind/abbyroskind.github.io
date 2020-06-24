@@ -40,7 +40,7 @@ li {
   list-style-type: none;
   width: 100%;
   margin: 10px;
-  padding: 0 50px;
+  padding: 0 40px;
   text-align: center;
   display: inline;
   line-height: 75px;
@@ -104,6 +104,7 @@ body {
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
   font-size: 2vw;
+  color: #FFF;
 }
 
 #contain {
