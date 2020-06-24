@@ -35,7 +35,7 @@ nav {
   font-style: normal;
   display: inline-flex;
   justify-content: space-around;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 li {
@@ -69,8 +69,9 @@ a:hover{
 }
 
 h2 {
-  font-family: 'Philosopher', sans-serif;
-  text-align: center;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: italic;
+  justify-content: center;
 }
 
 #two_column {
