@@ -34,7 +34,7 @@ li {
   list-style-type: none;
   width: 100%;
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
