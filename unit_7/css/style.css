@@ -25,6 +25,8 @@ nav {
   font-family: blambot-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
+  display: inline-flex;
+  justify-content: space-around;
   margin-bottom: 3em;
 }
 
