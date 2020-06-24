@@ -43,7 +43,7 @@ li {
   padding: 0 50px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
   .nav {
     flex-direction: column;
     display: inline-block;
