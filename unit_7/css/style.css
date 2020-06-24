@@ -48,8 +48,8 @@ li {
   justify-content: center;
 }
 
-@media screen and (min-width: 500px) {
-  .nav {
+@media screen and (max-width: 500px) {
+  .nav-flex-container {
     flex-direction: column;
     display: inline-block;
     float: none;
