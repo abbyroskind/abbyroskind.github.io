@@ -7,6 +7,10 @@ body {
   color: #000000;
 } 
 
+.wrapper {
+  background: #003F5B;
+}
+
 h1 {
   background-color: aqua;
   width: 100%;
