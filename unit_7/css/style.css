@@ -51,6 +51,7 @@ li {
 @media only screen and (max-width: 730px) { 
     [class*="nav-flex-container"] {
     width: 100%;
+    align-content: center;
   }
 }
 
