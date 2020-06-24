@@ -43,7 +43,7 @@ li {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: auto;
-  font-size: 2vw;
+  font-size: 3vw;
   padding: 0 50px;
 }
 
@@ -68,6 +68,7 @@ a:hover{
 h2 {
   font-family: aktiv-grotesk, sans-serif;
   font-style: italic;
+  font-size: 2vw;
   align-items: : center;
 }
 
