@@ -9,12 +9,7 @@ body {
   color: #000000;
 } 
 
-.wrapper {
-  background: #003F5B;
-}
-
 h1 {
-  background-color: aqua;
   width: 100%;
   font-family: 'rig-solid-medium-outline', sans-serif;
   letter-spacing: 2px;
@@ -26,7 +21,6 @@ h1 {
 }
 
 .nav-flex-container {
-  background-color: tan;
   width: 100%;
   font-family: blambot-pro, sans-serif;
   font-weight: 700;
