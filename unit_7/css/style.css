@@ -136,6 +136,10 @@ h2 {
   margin: auto;
 }
 
+img: hover {
+  border: 10px solid magenta;
+}
+
 .column img:hover{ 
   margin: 20px;
   vertical-align: middle;
