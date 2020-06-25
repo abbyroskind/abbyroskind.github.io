@@ -136,11 +136,15 @@ h2 {
   margin: auto;
 }
 
+.column img{ 
+  margin: 20px;
+  vertical-align: middle;
+  width: 100%;
+}
+
 .column img:hover {
   border: 10px solid #ff00ff00;
   transition-duration: .5s;
-  vertical-align: middle;
-  width: 100%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
