@@ -92,6 +92,10 @@ h2 {
       margin: 0 auto;
 }
 
+#right img{
+  border: 10px solid #ff00ff00;
+}
+
 #right #transparent {
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
@@ -137,7 +141,7 @@ h2 {
 }
 
 img: hover {
-  border: 10px solid magenta;
+  border: 10px solid #ff00ff00;
 }
 
 .column img:hover{ 
