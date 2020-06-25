@@ -37,6 +37,12 @@ h1 {
   margin: 15px 15px 20px 15px;
 }
 
+@media only screen and (max-width: 730px) { 
+    #nav-flex-container {
+    width: 100%;
+  }
+}
+
 li {
   font-family: blambot-pro, sans-serif;
   font-weight: 700;
@@ -59,13 +65,7 @@ a {
 }
 
 a:hover{
-  color: magenta;
-}
-
-@media only screen and (max-width: 730px) { 
-    #nav-flex-container {
-    width: 100%;
-  }
+  color: #ff00ff00;
 }
 
 h2 {
@@ -119,10 +119,6 @@ h2 {
   height: 0;
 }
 
-img: hover {
-  border 10px solid magenta;
-}
-
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -140,13 +136,10 @@ img: hover {
   margin: auto;
 }
 
-.column img{ 
+.column img:hover{ 
   margin: 20px;
   vertical-align: middle;
   width: 100%;
-}
-
-.column img:hover {
   border: 10px solid #ff00ff00;
   transition-duration: .5s;
 }
