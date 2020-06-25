@@ -9,6 +9,10 @@ body {
   color: #000000;
 } 
 
+header img {
+  margin: 20px;
+}
+
 h1 {
   width: 100%;
   font-family: 'rig-solid-medium-outline', sans-serif;
