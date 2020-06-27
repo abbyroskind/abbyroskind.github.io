@@ -178,6 +178,15 @@ var msnry = new Masonry( '.grid', {
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
 
+clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
 img: hover {
   border: 10px solid #ff00ff00;
 }
