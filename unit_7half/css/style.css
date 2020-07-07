@@ -100,6 +100,10 @@ h2 {
   width: 100%;
 }
 
+.clearfix {
+  padding: 20px;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
