@@ -13,7 +13,7 @@ body {
 .header img {
   width: 150px;
   height: 150px;
-  padding: 20px;
+  padding: 10px;
 }
 
 h1 {
@@ -63,17 +63,17 @@ li {
   }
 }
 
-p {
-  font-size: 1em;
-}
-
 h3 {
   width: 100%;
-  font-family: 'rig-solid-medium-outline', sans-serif;
-  letter-spacing: 2px;
-  font-weight: 500;
+  font-family: blambot-pro, sans-serif;
+  font-weight: 700;
   font-style: normal;
+  font-size: .75em;
   justify-content: center;
+}
+
+p {
+  font-size: 1em;
 }
 
 a {
