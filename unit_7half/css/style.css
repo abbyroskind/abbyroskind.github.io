@@ -1,18 +1,18 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
-	text-align: center;
+  text-align: center;
   color: #000000;
 } 
 
-header img {
-  margin: 20px;
-  width: 10%;
-  height: 10%;
+.wrapper {
+  margin: auto;
+}
+
+.header img {
+  padding: 20px;
 }
 
 h1 {
@@ -26,37 +26,34 @@ h1 {
   justify-content: center;
 }
 
-.nav-flex-container {
+nav {
   width: 100%;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.5vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 15px 15px 20px 15px;
-}
-
-@media only screen and (max-width: 730px) { 
-    #nav-flex-container {
-    width: 100%;
-  }
-}
-
-li {
   font-family: blambot-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 2.5vw;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+li {
   list-style-type: none;
   width: 100%;
-  margin: 10px;
-  padding: 0 40px;
-  text-align: center;
   display: inline;
-  line-height: 75px;
-  flex-direction: row;
   justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-size: 2vw;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+    display: inline-block;
+    float: none;
+    width: 100%;
+  }
 }
 
 a {
@@ -65,14 +62,12 @@ a {
 }
 
 a:hover{
-  color: #ff00ff00;
+  color: magenta;
 }
 
 h2 {
-  font-family: aktiv-grotesk, sans-serif;
-  font-style: italic;
-  font-size: 2vw;
-  align-items: : center;
+  font-family: 'Philosopher', sans-serif;
+  text-align: center;
 }
 
 #two_column {
@@ -92,10 +87,6 @@ h2 {
       margin: 0 auto;
 }
 
-#right img{
-  border: 10px solid #ff00ff00;
-}
-
 #right #transparent {
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
@@ -105,8 +96,6 @@ h2 {
   color: #000000; /* Black text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
-  font-size: 2vw;
-  color: #FFF;
 }
 
 #contain {
@@ -123,18 +112,51 @@ h2 {
   height: 0;
 }
 
-img: hover {
-  border: 10px solid #ff00ff00;
+img:hover {
+  border: 10px solid magenta;
 }
 
-.column img:hover{ 
-  margin: 20px;
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  margin: auto;
+}
+
+.column img {
+  padding-top: 1em;
+  padding: 2.5em;
   vertical-align: middle;
   width: 100%;
-  border: 10px solid #ff00ff00;
-  transition-duration: .5s;
 }
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 footer {
   font-family: Helvetica, Verdana, sans-serif;
