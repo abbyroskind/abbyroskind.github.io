@@ -11,8 +11,8 @@ body {
 } 
 
 .header img {
-  width: 150;
-  height: 150;
+  width: 150px;
+  height: 150px;
   padding: 20px;
 }
 
@@ -55,6 +55,8 @@ li {
   font-size: 1.2em;
   padding: 0 40px;
 }
+
+@media screen and (max)
 
 p {
   font-size: 1em;
