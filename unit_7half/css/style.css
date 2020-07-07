@@ -23,7 +23,6 @@ h1 {
   font-weight: 500;
   font-style: normal;
   font-size: 2em;
-  padding: 20px;
   display: flex;
   justify-content: center;
 }
@@ -58,9 +57,10 @@ li {
   padding: 20px 40px;
 }
 
-@media screen and (max-width: 800px) {
-  .li {
+@media screen and (max-width: 830px) {
+  .nav {
     display: block;
+    float: none;
     width: 100%;
   }
 }
