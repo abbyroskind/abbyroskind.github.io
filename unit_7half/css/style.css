@@ -56,7 +56,12 @@ li {
   padding: 0 40px;
 }
 
-@media screen and (max)
+@media screen and (max-width: 835px) {
+  .nav {
+    display: block;
+    width: 100%;
+  }
+}
 
 p {
   font-size: 1em;
@@ -175,15 +180,6 @@ a:hover{
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .nav {
-    flex-direction: column;
-    display: inline-block;
-    float: none;
-    width: 100%;
   }
 }
 
