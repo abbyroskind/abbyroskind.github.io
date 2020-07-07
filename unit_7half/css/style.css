@@ -32,7 +32,9 @@ h2 {
   text-align: center;
   font-size: .75em;
   margin: 40px;
+  padding: 10px;
   width: auto;
+  border: 20px solid #ff00ff00;
 }
 
 nav {
@@ -74,10 +76,11 @@ h3 {
   text-align: left;
 }
 
-p {
+.left p {
   font-family: 'Philosopher', sans-serif;
   font-size: .75em;
   text-align: left;
+  padding: 20px;
 }
 
 a {
@@ -118,7 +121,7 @@ a:hover{
   color: #FFF;
 }
 
-p {
+.right p {
   font-family: 'Philosopher', sans-serif;
   font-size: .75em;
   text-align: center;
