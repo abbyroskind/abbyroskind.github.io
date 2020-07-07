@@ -56,7 +56,7 @@ li {
   padding: 0 40px;
 }
 
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 800px) {
   .nav {
     display: block;
     width: 100%;
