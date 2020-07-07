@@ -98,6 +98,8 @@ h2 {
   color: #000000; /* Black text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
+  font-size: 2vw;
+  color: #FFF;
 }
 
 #contain {
@@ -112,10 +114,6 @@ h2 {
   content: " ";
   clear: both;
   height: 0;
-}
-
-img:hover {
-  border: 10px solid magenta;
 }
 
 .row {
@@ -140,6 +138,14 @@ img:hover {
   padding: 2.5em;
   vertical-align: middle;
   width: 100%;
+}
+
+.column img:hover {
+  margin: 1px;
+  vertical-align: middle;
+  width: 100%;
+  border: 10px solid #ff00ff00;
+  transition-duration: .5s;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
