@@ -11,7 +11,8 @@ body {
 } 
 
 .header img {
-  width: 20%;
+  width: 150px;
+  height: 150px;
   padding: 20px;
 }
 
