@@ -62,7 +62,6 @@ li {
 @media screen and (max-width: 830px) {
   .nav {
     display: block;
-    float: none;
     width: 100%;
   }
 }
@@ -76,7 +75,7 @@ h3 {
   text-align: left;
 }
 
-.left p {
+#left p {
   font-family: 'Philosopher', sans-serif;
   font-size: .75em;
   text-align: left;
@@ -121,7 +120,7 @@ a:hover{
   color: #FFF;
 }
 
-.right p {
+#right p {
   font-family: 'Philosopher', sans-serif;
   font-size: .75em;
   text-align: center;
