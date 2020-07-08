@@ -182,7 +182,7 @@ footer {
   padding: 150px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 880px) {
   .nav {
     float: none;
     display: block;
