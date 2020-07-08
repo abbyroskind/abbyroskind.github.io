@@ -183,7 +183,7 @@ footer {
 }
 
 @media screen and (max-width: 880px) {
-  .nav li {
+  .nav ul {
     display: block;
     width: 100%;
   }
