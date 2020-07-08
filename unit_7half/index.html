@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/goj2fvu.css">
   <link rel="stylesheet" href="https://use.typekit.net/goj2fvu.css">
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans|Abril+Fatface' rel='stylesheet' type='text/css'>
-  <script src="/path/to/masonry.pkgd.min.js"></script>
+  <script src="masonry.js"></script>
   <title>Abigail Roskind.</title>
 </head>
 
@@ -64,19 +64,18 @@
     
   </section>
 
-<div class="masonry_grid" 
-data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
-  <div class="grid-item">
+<div class="grid">
+    <div class="grid-sizer grid-item--height3">
+     <a href="https://abbyroskind.github.io/unit_7/blogpost"> 
+        <img src="images/lamps.jpeg">
+     </a>
+    </div>
     <div class="grid-item grid-item--width2 grid-item--height2">
      <a href="https://abbyroskind.github.io/unit_7/blogpost"> 
         <img src="images/DSCF0459.JPG">
      </a>
     </div>
-    <div class="grid-item grid-item--height3">
-     <a href="https://abbyroskind.github.io/unit_7/blogpost"> 
-        <img src="images/lamps.jpeg">
-     </a>
-    </div class="grid-item grid-item--height2>
+    <div class="grid-item grid-item--height2">
       <a href="https://abbyroskind.github.io/unit_7/blogpost"> 
         <img src="images/el-anatsui.png">
       </a>
@@ -90,6 +89,7 @@ data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
       <a href="https://abbyroskind.github.io/unit_7/blogpost"> 
         <img src="images/geometrics.jpeg">
       </a>
+    </div>
     <div class="grid-item">
       <a href="https://abbyroskind.github.io/unit_7/blogpost"> 
         <img src="images/GRAVITGRACE-by-El-Anatsui02.jpg">
@@ -154,9 +154,19 @@ data-masonry-options='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
 
 </main>
 
- <footer>&copy; 2020 Abby Roskind</footer>
+ <footer><p>&copy; 2020 Abby Roskind</p></footer>
 
 </div>
+
+<script type="text/javascript">
+  var elem = document.querySelector('.grid');
+  var msnry = new Masonry( elem, {
+  // options
+  columnWidth: '.grid-sizer',
+  itemSelector: '.grid-item',
+  percentPosition: true,
+});
+</script>
 
 </body>
 </html>

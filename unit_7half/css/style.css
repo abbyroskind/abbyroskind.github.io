@@ -59,13 +59,6 @@ li {
   padding: 20px 40px;
 }
 
-@media screen and (max-width: 830px) {
-  .nav {
-    display: block;
-    width: 100%;
-  }
-}
-
 h3 {
   width: 100%;
   font-family: blambot-pro, sans-serif;
@@ -176,6 +169,26 @@ a:hover{
   transition-duration: .5s;
 }
 
+.grid-item, .grid-sizer { width: 24%; margin: .5%; }
+.grid-item--width2 { width: 49%; }
+
+.grid img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  font-family: Helvetica, Verdana, sans-serif;
+  padding: 150px;
+}
+
+@media screen and (max-width: 830px) {
+  .nav {
+    display: block;
+    width: 100%;
+  }
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
@@ -192,10 +205,5 @@ a:hover{
     flex: 100%;
     max-width: 100%;
   }
-}
-
-footer {
-  font-family: Helvetica, Verdana, sans-serif;
-  padding: 150px;
 }
 
