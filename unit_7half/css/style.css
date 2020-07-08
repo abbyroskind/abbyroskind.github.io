@@ -34,7 +34,8 @@ h2 {
   margin: 0 40px;
   padding: 10px;
   width: auto;
-  border: 20px solid magenta;
+  border: 5px solid #FF00FF;
+  border-radius: 12px;
 }
 
 nav {
@@ -81,7 +82,7 @@ a {
 }
 
 a:hover{
-  color: magenta;
+  color: #FF00FF;
 }
 
 #two_column {
@@ -165,7 +166,7 @@ a:hover{
   margin: 1px;
   vertical-align: middle;
   width: 100%;
-  border: 10px solid #ff00ff00;
+  border: 10px solid ##FF00FF;
   transition-duration: .5s;
 }
 
