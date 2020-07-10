@@ -56,7 +56,6 @@ nav a {
 
 a:hover{
   color: #FF00FF;
-  text-decoration: none;
 }
 
 #two_column {
@@ -142,11 +141,7 @@ a:hover{
 }
 
 .grid-item--width2 { 
-  width: 20%; 
-}
-
-.grid {
-  margin: 0 auto;
+  width: 49%; 
 }
 
 .grid img {
