@@ -370,3 +370,23 @@ footer a {
   footer {
     font-size: .2em;
   }
+
+  @media screen and (max-width: 360px) {
+    
+  h1 {
+    font-size: .5em;
+  }
+
+  .feature {
+    display: block;
+    width: 100%;
+  }
+
+  #related_content {
+    display: block;
+    width: 100%;
+  }
+
+  }
+
+
