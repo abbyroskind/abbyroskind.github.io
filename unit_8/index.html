@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/goj2fvu.css">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
   <script src="masonry.js"></script>
-  <script src="https://unpkg.com/imagesloaded@4/imagesLoaded.pkgd.js"></script>
+  <script src="imagesloaded.pkgd.min.js"></script>
   <title>Abigail Roskind.</title>
 </head>
 
@@ -53,7 +53,7 @@
               <li><a href="https://abbyroskind.github.io/unit_7/blogpost">Blog Title 1</a></li>
 
               <li><a href="https://abbyroskind.github.io/unit_7/blogpost">Blog Title 2</a></li>
-              
+
               <li><a href="https://abbyroskind.github.io/unit_7/blogpost">Blog Title 3</a></li>
 
             </ul>
@@ -146,6 +146,23 @@
   itemSelector: '.grid-item',
   percentPosition: true,
 });
+</script>
+
+<script>
+
+            
+  $(document).ready(function () {
+      var $grid = $('.grid')({
+          itemSelector: ".grid",
+          masonry: {
+              columnWidth: 24
+          }
+      });
+      $grid.imagesLoaded().progress(function () {
+            $grid('layout');
+            })
+      })
+
 </script>
 
 </body>

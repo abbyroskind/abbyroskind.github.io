@@ -162,17 +162,13 @@ h2 {
   height: 0;
 }
 
-.grid-item, .grid-sizer { 
+.grid-sizer .grid-item { 
   width: 24%; 
   margin: .5%; 
 }
 
-.grid-item--width2 { 
+.grid-item--width { 
   width: 49%; 
-}
-
-.grid img {
-  width: 100%;
 }
 
 .grid img:hover {
@@ -188,6 +184,7 @@ h2 {
   font-size: .5em;
   font-family: 'IBM Plex Sans', sans-serif;
   color: #000;
+  margin: 10px;
 }
 
 footer {
@@ -392,5 +389,4 @@ footer a {
   }
 
   }
-
 
