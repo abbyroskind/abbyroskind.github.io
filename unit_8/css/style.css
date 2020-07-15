@@ -163,7 +163,8 @@ h2 {
 }
 
 .grid-item, .grid-sizer { 
-  width: 24%; margin: .5%; 
+  width: 24%; 
+  margin: .5%; 
 }
 
 .grid-item--width2 { 
@@ -172,7 +173,6 @@ h2 {
 
 .grid img {
   width: 100%;
-  display: block;
 }
 
 .grid img:hover {
