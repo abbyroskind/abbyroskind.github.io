@@ -166,26 +166,25 @@ h2 {
   margin: .5%;
 }
 
-.grid-item {
-  width: 33%;
-}
-
 .grid-item--width1 {
-  width: 33%;
+  width: 62%;
 }
 
 .grid-item--width2 {
-  width: 33%;
+  width: 18%;
 }
 
 .grid-item--width3 {
-  width: 33%;
+  width: 55%;
+}
+
+.grid-item--width4 {
+  width: 41%;
 }
 
 .grid img {
   width: 100%;
 }
-
 
 .grid img:hover {
   border: 10px solid #FF00FF;
