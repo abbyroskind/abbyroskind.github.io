@@ -117,11 +117,10 @@ h2 {
 }
 
 .feature span {
-  width: 100%;
   font-family: blambot-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 1em;
+  font-size: .5em;
   color: #FFF;
   display: block;
   padding: 15px 0;
@@ -166,6 +165,22 @@ h2 {
   width: 33%; 
   margin: .5%;
   display: block;
+}
+
+.grid-item {
+  width: 18%;
+}
+
+.grid-item--width1 {
+  width: 24%;
+}
+
+.grid-item--width2 {
+  width: 59%;
+}
+
+.grid-item--width3 {
+  width: 43%;
 }
 
 .grid img {
