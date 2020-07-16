@@ -162,24 +162,16 @@ h2 {
 }
 
 .grid-sizer, .grid-item { 
-  width: 33%; 
+  width: 32.33%; 
   margin: .5%;
 }
 
-.grid-item--width1 {
-  width: 62%;
-}
-
 .grid-item--width2 {
-  width: 18%;
+  width: 65.66%;
 }
 
 .grid-item--width3 {
-  width: 55%;
-}
-
-.grid-item--width4 {
-  width: 41%;
+  width: 99%;
 }
 
 .grid img {
