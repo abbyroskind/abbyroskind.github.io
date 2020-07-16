@@ -164,28 +164,28 @@ h2 {
 .grid-sizer, .grid-item { 
   width: 33%; 
   margin: .5%;
-  display: block;
 }
 
 .grid-item {
-  width: 18%;
+  width: 33%;
 }
 
 .grid-item--width1 {
-  width: 24%;
+  width: 33%;
 }
 
 .grid-item--width2 {
-  width: 59%;
+  width: 33%;
 }
 
 .grid-item--width3 {
-  width: 43%;
+  width: 33%;
 }
 
 .grid img {
   width: 100%;
 }
+
 
 .grid img:hover {
   border: 10px solid #FF00FF;
