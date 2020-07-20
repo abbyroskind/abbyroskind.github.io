@@ -71,7 +71,7 @@ h2 {
 #two_column {
 }
 
-#related_content {
+.related_content {
     float: left;
     width: 50%;
     font-family: blambot-pro, sans-serif;
@@ -82,19 +82,19 @@ h2 {
     display: inline-block;
 }
 
-#related_content li {
+.related_content li {
   list-style-type: none;
   margin: 60px;
   font-size: .8em;
 }
 
-#related_content a {
+.related_content a {
   color: #000;
   text-decoration: underline solid #FF00FF;
   text-underline-position: under;
 }
 
-#related_content a:hover {
+.related_content a:hover {
   color: #FF00FF;
 }
 
@@ -221,6 +221,7 @@ footer a {
   nav li {
     font-size: .8em;
   }
+}
 
 @media screen and (max-width: 1200px) {
 
@@ -251,14 +252,14 @@ footer a {
     font-size: .8em;
   }
 
-  #related_content {
+  .related_content {
     display: inline-block;
     width: 50%;
     float: left;
     padding: 0;
   }
 
-  #related_content li {
+  .related_content li {
     margin: 50px;
   }
 
@@ -269,13 +270,18 @@ footer a {
   }
 
   .feature span {
-    font-size: 1em;
+    font-size: .5em;
     margin-bottom: 10px;
+  }
+
+  .feature p {
+    font-size: .5em;
   }
 
   .clearfix {
     overflow: auto;
   }
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -288,7 +294,7 @@ footer a {
     margin-top: 10px;
   }
 
-  #related_content li {
+  .related_content li {
     font-size: .7em;
     margin: 40px;
   }
@@ -297,7 +303,6 @@ footer a {
     font-size: .7em;
     padding: 0;
   }
-
 }
 
 @media screen and (max-width: 830px) {
@@ -315,7 +320,7 @@ footer a {
     font-size: .5em;
   }
 
-  #related_content li {
+  .related_content li {
     font-size: .5em;
   }
 
@@ -329,8 +334,10 @@ footer a {
   }
 
   footer {
-    font-size: .3em;
+    font-size: .5em;
+    padding: 70px 0;
   }
+}
 
 
 @media screen and (max-width: 700px) {
@@ -349,11 +356,27 @@ footer a {
 
   h2 {
     font-size: .4em;
+    margin: 10px;
   }
 
-  #related_content li {
-    font-size: .4em;
-    margin: 25px 0;
+  section {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .related_content #a {
+    order: 2;
+  }
+
+  .feature #b {
+    order: 1;
+  }
+
+  .feature {
+    float: none;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
   }
 
   .feature span {
@@ -364,6 +387,18 @@ footer a {
     font-size: .3em;
   }
 
+  .related_content {
+    float: none;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .related_content li {
+    font-size: .4em;
+    margin: 25px 0;
+  }
+
   .grid-item, .grid-sizer { 
     width: 99%; margin: .5%; 
   }
@@ -371,10 +406,7 @@ footer a {
   .grid-item--width2 { 
     width: 99%; 
   }
-
-  footer {
-    font-size: .2em;
-  }
+}
 
   @media screen and (max-width: 365px) {
     
@@ -382,19 +414,23 @@ footer a {
     font-size: .5em;
   }
 
+  nav li {
+    display: inline;
+  }
+
   .feature {
     display: block;
     width: 100%;
   }
 
-  #related_content {
+  .related_content {
     display: block;
     width: 100%;
   }
 
   footer {
-    padding: 0;
+    padding: 50px 0;
   }
+}
 
-  }
 
