@@ -414,10 +414,6 @@ footer a {
     font-size: .5em;
   }
 
-  nav li {
-    display: inline;
-  }
-
   .feature {
     display: block;
     width: 100%;
